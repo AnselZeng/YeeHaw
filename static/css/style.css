@@ -3,10 +3,53 @@
     padding: 0;
 }
 
-html, body {
-    background-image: linear-gradient(45deg, )
+html {
+    width: 100%;
+    height: 100%;
+    background-image: url('/static/css/cowboy.png'), linear-gradient(-120deg, #C3976A, #924A36);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-attachment: fixed;
+    background-size: 100%;
 }
 
 body {
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.container {
+    width: 600px;
+    height: 600px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -300px 0 0 -300px;
+
+    background: rgba(172, 113, 74, 0.9);
+    border: 4px solid #D9D7C7;
+    background-clip: border-box;
+}
+
+.header {
+    padding: 10px;
+    color: #E6E3D3;
+    text-align: center;
+    font-size: 30px;
+    background: rgba(107, 70, 46, 0.5);
+}
+
+.body {
+    height: 455px;
+}
+
+.footer {
+    padding: 10px;
+    color: #E6E3D3;
+    text-align: center;
+    background: rgba(145, 96, 63, 0.4);
 }
