@@ -170,7 +170,7 @@ body {
 }
 .sheriff {
   animation: moveIn 1s ease forwards;
-  background-image: url("https://shorturl.at/uwTV9");
+  background-image: url("https://i.ibb.co/Bg3kWgL/spritesheet.png");
   background-position-x: 0;
   background-position-y: -618px;
   height: 200px;
@@ -198,7 +198,7 @@ body {
 
 .opponent {
   animation: moveIn 1s ease forwards;
-  background-image: url("https://shorturl.at/rvMO9");
+  background-image: url("https://i.ibb.co/Bg3kWgL/spritesheet.png");
   background-position-x: 0;
   height: 200px;
   opacity: 0;
